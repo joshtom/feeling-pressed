@@ -1,63 +1,119 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React from "react";
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import "./about.styles.scss";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
-  return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
+const AboutPage = () => (
+  <>
+  <Layout>
+    <main className="about-page">
+      <section className="people-bg">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 offset-lg-4 col-sm-12 ">
+              <h2 className="h2 text-center">About Us</h2>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  )
-}
-
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
-
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
+      </section>
+      <section className="vision">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-12 col-sm-12">
+              <h1 className=" h1 text-center">Our Vision</h1>
+              <p className="p">
+                Sed velit lectus, porttitor eu convallis sit amet, semper eget
+                mauris. Integer in pulvinar mauris. Donec facilisis placerat
+                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
+                libero dictum sollicitudin. Curabitur dapibus arcu leo,
+                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
+                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
+                vel felis molestie, malesuada neque tempus, bibendum mauris.
+                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.ed velit lectus, porttitor eu convallis sit amet,
+                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
+                placerat magna sed cursus. Mauris vel tristique arcu. Duis
+                congue orci id libero dictum sollicitudin. Curabitur dapibus
+                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
+                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
+                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
+                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mission">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-12 col-sm-12">
+              <h1 className="h1 text-center">Our Mission</h1>
+              <p className="p">
+                Sed velit lectus, porttitor eu convallis sit amet, semper eget
+                mauris. Integer in pulvinar mauris. Donec facilisis placerat
+                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
+                libero dictum sollicitudin. Curabitur dapibus arcu leo,
+                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
+                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
+                vel felis molestie, malesuada neque tempus, bibendum mauris.
+                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.ed velit lectus, porttitor eu convallis sit amet,
+                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
+                placerat magna sed cursus. Mauris vel tristique arcu. Duis
+                congue orci id libero dictum sollicitudin. Curabitur dapibus
+                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
+                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
+                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
+                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="values">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-12 col-sm-12">
+              <h1 className="h1 text-center">Our Values</h1>
+              <p className="p">
+                Sed velit lectus, porttitor eu convallis sit amet, semper eget
+                mauris. Integer in pulvinar mauris. Donec facilisis placerat
+                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
+                libero dictum sollicitudin. Curabitur dapibus arcu leo,
+                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
+                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
+                vel felis molestie, malesuada neque tempus, bibendum mauris.
+                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.ed velit lectus, porttitor eu convallis sit amet,
+                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
+                placerat magna sed cursus. Mauris vel tristique arcu. Duis
+                congue orci id libero dictum sollicitudin. Curabitur dapibus
+                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
+                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
+                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
+                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
+                Vestibulum neque tortor, placerat sit amet condimentum euismod,
+                suscipit lobortis diam. Sed varius elit non erat dignissim
+                vulputate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     </Layout>
-  )
-}
+  </>
+);
 
-AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
-export default AboutPage
-
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`
+export default AboutPage;

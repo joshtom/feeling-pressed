@@ -1,0 +1,43 @@
+.about-page {
+    .people-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+            url("https://res.cloudinary.com/john-pels/image/upload/v1585961500/hiclipart.com.png") center center no-repeat;
+        background-size: cover;
+        background-position: 20% 80%;
+        height: 650px;
+
+        .h2 {
+            margin: 6em 0 0;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 45px;
+            letter-spacing: 1.5px;
+            color: #ffffff;
+            opacity: 1;
+        }
+    }
+
+    .h1 {
+        font-weight: 600;
+        font-size: 35px;
+        padding-bottom: 1em;
+        color: #010101;
+        opacity: 1;
+        text-transform: uppercase;
+    }
+
+    .vision,
+    .mission,
+    .values {
+        padding: 4em 15em;
+
+        @media (max-width:767px) {
+            padding: 1em;
+        }
+    }
+
+    .mission {
+        background: #FFC55C 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+}

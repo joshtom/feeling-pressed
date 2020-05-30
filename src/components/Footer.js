@@ -1,115 +1,77 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faFacebookF,
+//   faTwitter,
+//   faInstagram
+// } from "@fortawesome/free-brands-svg-icons";
+// import { faChevronRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import "./footer.styles.scss";
 
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+const Footer = () => (
+  <footer className="footer">
+    <div className="container">
+      <h1 className="footer__brand text-center">Feeling Pressed</h1>
 
-const Footer = class extends React.Component {
-  render() {
-    return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
+      <div className="row">
+        <div className="col-lg-8 offset-lg-2 col-sm-12">
+          <p className="footer- mb-5 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            tenetur quas iure doloremque? Qui illum deserunt, nostrum,
+            doloremque quaerat obcaecati unde ut nihil itaque commodi blanditiis
+            non minima neque harum.
+          </p>
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
+      </div>
+      <div className="row">
+        <div className="col-lg-6 offset-lg-3 col-sm-12">
+          <section className="footer__form-wrap">
+            <h6 className="form-heading text-center">Subscribe</h6>
+            <form action="" className="footer-form">
+              <div className="input-group">
+                <input
+                  type="text"
+                  placeholder="Email..."
+                  className="form-input"
+                />{" "}
+                <button className="btn-submit">
+                  {" "}
+                  {/* <FontAwesomeIcon icon={faChevronRight} /> */}
+                  <i className="fa fa-chevron-right">  </i>
+                  
+                </button>
               </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-6 offset-lg-3 col-sm-12">
+          <section className="social-media">
+            <div className="media-handles mt">
+              {/* <FontAwesomeIcon icon={faFacebookF} className="icon facebook" /> */}
+              <i className="fa fa-facebook-f icon facebook">  </i>
             </div>
-          </div>
-        </div>
-      </footer>
-    )
-  }
-}
+            <div className="media-handles mt">
+              {/* <FontAwesomeIcon icon={faTwitter} className="icon twitter" /> */}
+              <i className="fa fa-twitter icon twitter">  </i>
+            </div>
 
-export default Footer
+            <div className="media-handles mt">
+              {/* <FontAwesomeIcon icon={faEnvelope} className="icon envelope" /> */}
+              <i className="fa fa-envelope icon envelope">  </i>
+            </div>
+            <div className="media-handles">
+              {/* <FontAwesomeIcon icon={faInstagram} className="icon instagram" /> */}
+              <i className="fa fa-instagram icon instagram">  </i>
+            </div>
+          </section>
+        </div>
+      </div>
+      <p className="copyright text-center">
+        2020 Copyright &copy; Feeling Pressed International
+      </p>
+    </div>
+  </footer>
+);
+export default Footer;

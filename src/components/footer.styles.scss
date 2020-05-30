@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ffc55c #fff;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffc55c;
+    border-radius: 20px;
+    border: 3px solid #ffc55c;
+}
+
+
+.footer {
+    display: flex;
+    background: #100F0F 0% 0% no-repeat padding-box !important;
+    min-height: 300px;
+    color: #D6D6D4;
+    opacity: 1;
+
+    &__brand {
+        padding: 1em 0;
+        text-transform: uppercase;
+        font-size: 2.5em;
+
+        @media (max-width: 767px) {
+            font-size: 1.5em;
+        }
+    }
+
+    &__text {
+        font-size: 20px;
+        letter-spacing: 0.7px;
+    }
+
+    &__form-wrap {
+        .form-heading {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+            letter-spacing: 1.2px;
+            opacity: 0.74;
+        }
+
+        .footer-form {
+
+            .input-group {
+                position: relative;
+                display: flex;
+                justify-content: center;
+
+                .form-input {
+                    border: none;
+                    padding-left: 1em;
+                    outline: none;
+                    font-size: 1em;
+                    width: 80%;
+                    height: 60px;
+                    border-radius: 10em;
+                    background: #D6D6D4 0% 0% no-repeat padding-box;
+
+                    &::-webkit-input-placeholder {
+                        letter-spacing: 1.2px;
+                        color: #010101;
+                        opacity: 0.5;
+                    }
+                }
+
+                .btn-submit {
+                    position: absolute;
+                    right: 1.8em;
+                    border-radius: 50%;
+                    background: #010101;
+                    color: #D6D6D4;
+                    font-size: 1.5em;
+                    width: 58px;
+                    border: none;
+                    height: 60px;
+                    transition: all .5s ease-in-out;
+
+                    @media(max-width:767px) {
+                        right: 1.2em;
+
+                    }
+
+                    &:hover {
+                        background: lighten(#010101, 10%);
+                        transform: rotate(360deg);
+                    }
+                }
+
+            }
+        }
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        cursor: pointer;
+
+        .media-handles {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 1.5em;
+            background: #D6D6D4 0% 0% no-repeat padding-box;
+
+            .icon {
+                color: #010101;
+                position: absolute;
+                top: .8em;
+                left: .8em;
+            }
+        }
+
+        .facebook {
+            transition: all .5s ease-in-out;
+
+            &:hover {
+                color: rgb(6, 7, 87);
+
+            }
+        }
+
+        .twitter {
+            transition: all .5s ease-in-out;
+
+            &:hover {
+                color: #2591DB;
+
+            }
+        }
+
+        .envelope {
+            transition: all .5s ease-in-out;
+
+            &:hover {
+                color: rgb(12, 15, 218);
+
+            }
+        }
+
+        .instagram {
+            transition: all .5s ease-in-out;
+
+            &:hover {
+                color: #A6427B;
+
+            }
+        }
+
+        .mt {
+            margin-right: 1em;
+        }
+    }
+
+    .copyright {
+        margin-top: 6em;
+
+    }
+}
