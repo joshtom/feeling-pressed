@@ -12,13 +12,14 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-4" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                style={{ padding: ".8em" }}
+                className={` tile is-child box notification ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
-                <header>
+                <header style={{ display: "flex", flexDirection: "column" }}>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -26,18 +27,20 @@ class BlogRoll extends React.Component {
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
+                        style={{ width: "100%" }}
                       />
                     </div>
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title has-text-primary"
+                      style={{ fontSize: "1em" }}
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <br />
+                    <span className="subtitle" style={{ fontSize: ".8em" }}>
                       {post.frontmatter.date}
                     </span>
                   </p>
@@ -76,7 +79,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 100)
               id
               fields {
                 slug
