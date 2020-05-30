@@ -1,0 +1,111 @@
+.our-team {
+    .team-heading {
+        color: #010101;
+        opacity: 1;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 3em 0;
+    }
+
+    .team-card {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        border: 2px solid #FFC55C;
+        border-radius: 2px;
+        opacity: 1;
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        color: #010101;
+        margin: 4em 0 7em;
+
+        .img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: -5em;
+
+            .team-img {
+                display: block;
+                box-shadow: 0px 0px 3px 0px grey;
+                border-radius: 50%;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .name {
+            margin: 1em 0 .5em;
+            font-weight: bold;
+            font-size: 24px;
+            opacity: 1;
+        }
+
+        .role {
+            font-size: 20px;
+
+        }
+
+        .text {
+            margin: 1em 0;
+            text-align: center;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin: 1em 0 2em;
+            cursor: pointer;
+
+            .media-handles {
+                position: relative;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                font-size: 1.5em;
+                border: 1px solid #FFC55C;
+                background: #FFF 0% 0% no-repeat padding-box;
+
+                .icon {
+                    color: #010101;
+                    position: absolute;
+                    top: .8em;
+                    left: .8em;
+                }
+            }
+
+            .mt {
+                margin-right: 1em;
+            }
+
+            .facebook {
+     transition: all .5s ease-in-out;
+
+     &:hover {
+         color: rgb(6, 7, 87);
+
+     }
+ }
+
+ .twitter {
+     transition: all .5s ease-in-out;
+
+     &:hover {
+         color: #2591DB;
+
+     }
+ }
+
+ .envelope {
+     transition: all .5s ease-in-out;
+
+     &:hover {
+         color: rgb(12, 15, 218);
+
+     }
+ }
+
+        }
+    }
+}
