@@ -1,0 +1,17 @@
+.welcome {
+    background: #fff;
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+
+    @media screen and (max-width: 500px) {
+        height: auto;
+    }
+
+    .container {
+        img {
+            width: 100%;
+        }
+    }
+}

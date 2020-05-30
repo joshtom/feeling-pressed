@@ -1,0 +1,44 @@
+$color: hsla(38, 100%, 68%, 1);
+$white: hsl(0, 0%, 100%);
+$bg: hsla(210, 1%, 23%, 1);
+
+.main {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .btn-signup,
+    .btn-learn-more {
+        border: none;
+        min-width: 120px;
+        min-height: 50px;
+        background: $color;
+        cursor: pointer;
+        border-radius: .2em;
+        transition: all .5s ease-in-out;
+
+        &:hover {
+            background: darken($color, 20%);
+
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        min-height: 70vh;
+    }
+
+    h1 {
+        color: $color;
+        font-weight: 900;
+
+        @media screen and (max-width: 700px) {
+            font-size: 2.5em;
+        }
+    }
+
+    p {
+        color: $white;
+    }
+
+}
