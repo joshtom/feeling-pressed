@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@800&display=swap');
 $color: hsla(38, 100%, 68%, 1);
 $white: hsl(0, 0%, 100%);
 $bg: hsla(210, 1%, 23%, 1);
@@ -29,8 +30,10 @@ $bg: hsla(210, 1%, 23%, 1);
     }
 
     h1 {
-        color: $color;
+        color: $white;
         font-weight: 900;
+        z-index: 1000;
+        font-family: 'Open Sans', sans-serif;
 
         @media screen and (max-width: 700px) {
             font-size: 2.5em;
@@ -39,6 +42,27 @@ $bg: hsla(210, 1%, 23%, 1);
 
     p {
         color: $white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: .1rem;
+        font-weight: bold;
+    }
+    .learn-more-link {
+        button.learn-btn {
+            background: #C88C30 !important;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px !important;
+            padding: 10px 15px 10px 15px;
+            font-family: 'Open Sans', sans-serif;
+            border-radius: 4px;
+            transition: 300ms all ease-in-out;
+
+            &:hover, &:focus-within{
+                background: #eee !important;
+                color: #C88C30 !important;
+            }
+        }
     }
 
 }
