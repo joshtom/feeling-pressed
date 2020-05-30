@@ -1,0 +1,19 @@
+@media screen and (max-width: 1023px)
+ {
+    .navbar-menu.is-active {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+ }
+
+ @media screen and (min-width: 1023px)
+ {
+  .navbar-brand {
+      width: 10% !important;
+  }
+
+    a#nav__item {
+        text-decoration: none !important;
+    }
+ }
