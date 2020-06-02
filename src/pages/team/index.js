@@ -12,12 +12,15 @@ const OurTeam = () => (
       <h1 className="team-heading text-center">Meet Our Team</h1>
       <div className="row">
         {Data.map((team) => (
-          <div className="col-md-4" key={team.id}>
+          <div className="col-md-4 m-auto" key={team.id}>
             <TeamCard
               imgUrl={team.imgUrl}
               name={team.name}
               role={team.role}
               text={team.text}
+              twHandle={team.twHandle}
+              fbHandle={team.fbHandle}
+              mdHandle={team.mdHandle}
             />
           </div>
         ))}

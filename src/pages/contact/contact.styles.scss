@@ -1,0 +1,231 @@
+.contact-page {
+  .people-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+      url("https://res.cloudinary.com/john-pels/image/upload/v1585961500/hiclipart.com.png");
+    background-size: cover;
+    background-position: 20% 80%;
+    height: 850px;
+
+    .h2 {
+      margin: 5em 0 0;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 45px;
+      letter-spacing: 1.5px;
+      color: #ffffff;
+      opacity: 1;
+    }
+  }
+
+  .white-bg {
+    margin-top: -20em;
+    padding: 4em 2em 8em;
+
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    @media (max-width: 767px) {
+      padding: 1em;
+    }
+
+    .right-col {
+      padding-left: 2em;
+
+      @media (max-width: 767px) {
+        padding: 0.5em;
+      }
+
+      .r-col-h3 {
+        font-size: 40px;
+        letter-spacing: 0px;
+        color: #010101;
+        opacity: 1;
+
+        @media (max-width: 767px) {
+          font-size: 30px;
+        }
+      }
+
+      .grey-text {
+        color: rgb(75, 72, 72);
+        padding-bottom: 1em;
+      }
+
+      .contact-details {
+        display: flex;
+
+        span {
+          margin-left: 2em;
+          color: rgb(75, 72, 72);
+        }
+
+        .icon {
+          font-size: 1.2em;
+        }
+      }
+
+      .m-top {
+        margin-top: 2em;
+      }
+
+      .social-media {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 4em;
+        cursor: pointer;
+
+        .media-handles {
+          position: relative;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          font-size: 1.5em;
+          background: #d6d6d4 0% 0% no-repeat padding-box;
+
+          .icon {
+            color: #010101;
+            position: absolute;
+            top: 0.8em;
+            left: 0.8em;
+
+            @media (max-width: 767px) {
+              top: 0.7em;
+              left: 0.7em;
+            }
+          }
+        }
+
+        .facebook {
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            color: rgb(6, 7, 87);
+          }
+        }
+
+        .twitter {
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            color: #2591db;
+          }
+        }
+
+        .envelope {
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            color: rgb(12, 15, 218);
+          }
+        }
+
+        .instagram {
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            color: #a6427b;
+          }
+        }
+
+        .mt {
+          margin-right: 1em;
+        }
+      }
+    }
+
+    .left-col {
+      padding: 3em 1em;
+
+      @media (max-width: 767px) {
+        padding: 0;
+        margin-top: 2em;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 2em;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 20px #00000029;
+        opacity: 1;
+
+        @media (max-width: 767px) {
+          padding: 1em;
+        }
+
+        .form-h3 {
+          font-size: 30px;
+          font-weight: 600;
+          color: #000;
+          letter-spacing: 0px;
+          color: #010101;
+          opacity: 1;
+
+          @media (max-width: 767px) {
+            font-size: 20px;
+          }
+        }
+
+        label {
+          color: rgb(75, 72, 72);
+
+        }
+
+        .form-input {
+          width: 100%;
+          height: 40px;
+          border: none;
+          outline: none;
+          margin-bottom: 2.5em;
+          border-bottom: 0.5px solid #716d6d;
+          opacity: 1;
+          transition: all 0.5s ease-in-out;
+
+          &:hover,
+          &:focus {
+            border-bottom: 0.5px solid #cf2323;
+          }
+        }
+
+        .message-input {
+          width: 100%;
+          border: 0.5px solid #716d6d;
+          outline: none;
+          margin-bottom: 2.5em;
+          transition: all 0.5s ease-in-out;
+          padding-left: 1em;
+
+          &:hover,
+          &:focus {
+            border: 0.5px solid #cf2323;
+          }
+        }
+
+        .btn-send {
+          width: 60%;
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          height: 60px;
+          line-height: 60px;
+          background: #ffc55c 0% 0% no-repeat padding-box;
+          border-radius: 41px;
+          opacity: 1;
+          border: none;
+          color: #000;
+          font-weight: 600;
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            background: darken(#ffc55c, 10%);
+            box-shadow: 0px 4px 20px #00000029;
+          }
+
+          @media (max-width: 767px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import React from "react";
 //   faInstagram
 // } from "@fortawesome/free-brands-svg-icons";
 // import { faChevronRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "gatsby"
 import "./footer.styles.scss";
 
 const Footer = () => (
@@ -15,17 +16,25 @@ const Footer = () => (
 
       <div className="row">
         <div className="col-lg-8 offset-lg-2 col-sm-12">
-          <p className="footer- mb-5 text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-            tenetur quas iure doloremque? Qui illum deserunt, nostrum,
-            doloremque quaerat obcaecati unde ut nihil itaque commodi blanditiis
-            non minima neque harum.
+          <p className="footer- text-center">
+            Quick Links
           </p>
+          <ul className="text-center mb-3 footer__quickLinks">
+            <li>
+              <Link to="/about" className="links">ABOUT</Link>
+            </li>
+            <li>
+              <Link to="/blog" className="links">BLOG</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="links">CONTACT</Link>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-6 offset-lg-3 col-sm-12">
-          <section className="footer__form-wrap">
+          {/* <section className="footer__form-wrap">
             <h6 className="form-heading text-center">Subscribe</h6>
             <form action="" className="footer-form">
               <div className="input-group">
@@ -33,36 +42,31 @@ const Footer = () => (
                   type="text"
                   placeholder="Email..."
                   className="form-input"
-                />{" "}
+                />
                 <button className="btn-submit">
-                  {" "}
-                  {/* <FontAwesomeIcon icon={faChevronRight} /> */}
                   <i className="fa fa-chevron-right">  </i>
                   
                 </button>
               </div>
             </form>
-          </section>
+          </section> */}
+          <h5 className="text-center"> Email Newsletter coming soon </h5>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-6 offset-lg-3 col-sm-12">
           <section className="social-media">
             <div className="media-handles mt">
-              {/* <FontAwesomeIcon icon={faFacebookF} className="icon facebook" /> */}
               <i className="fa fa-facebook-f icon facebook">  </i>
             </div>
             <div className="media-handles mt">
-              {/* <FontAwesomeIcon icon={faTwitter} className="icon twitter" /> */}
               <i className="fa fa-twitter icon twitter">  </i>
             </div>
 
             <div className="media-handles mt">
-              {/* <FontAwesomeIcon icon={faEnvelope} className="icon envelope" /> */}
               <i className="fa fa-envelope icon envelope">  </i>
             </div>
             <div className="media-handles">
-              {/* <FontAwesomeIcon icon={faInstagram} className="icon instagram" /> */}
               <i className="fa fa-instagram icon instagram">  </i>
             </div>
           </section>

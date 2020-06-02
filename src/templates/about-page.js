@@ -18,30 +18,10 @@ const AboutPage = () => (
       <section className="vision">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-12 col-sm-12">
+            <div className="col-lg-8 col-sm-12">
               <h1 className=" h1 text-center">Our Vision</h1>
               <p className="p">
-                Sed velit lectus, porttitor eu convallis sit amet, semper eget
-                mauris. Integer in pulvinar mauris. Donec facilisis placerat
-                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
-                libero dictum sollicitudin. Curabitur dapibus arcu leo,
-                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
-                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
-                vel felis molestie, malesuada neque tempus, bibendum mauris.
-                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.ed velit lectus, porttitor eu convallis sit amet,
-                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
-                placerat magna sed cursus. Mauris vel tristique arcu. Duis
-                congue orci id libero dictum sollicitudin. Curabitur dapibus
-                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
-                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
-                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
-                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.
+               We are a platform centered around Illuminating Hearts, Reshaping earth through the word of God. We believe every lives can be touched and transformed by being exposed to the right content and making it free of charge to any individual irrespective of race, tribe, or religion.
               </p>
             </div>
           </div>
@@ -50,30 +30,14 @@ const AboutPage = () => (
       <section className="mission">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-12 col-sm-12">
+            <div className="col-lg-8 col-sm-12">
               <h1 className="h1 text-center">Our Mission</h1>
               <p className="p">
-                Sed velit lectus, porttitor eu convallis sit amet, semper eget
-                mauris. Integer in pulvinar mauris. Donec facilisis placerat
-                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
-                libero dictum sollicitudin. Curabitur dapibus arcu leo,
-                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
-                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
-                vel felis molestie, malesuada neque tempus, bibendum mauris.
-                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.ed velit lectus, porttitor eu convallis sit amet,
-                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
-                placerat magna sed cursus. Mauris vel tristique arcu. Duis
-                congue orci id libero dictum sollicitudin. Curabitur dapibus
-                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
-                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
-                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
-                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.
+              We are not denominational and never want to be. As we move faster to wiping away the cosmos, we intensify the need to break denominational barriers and bring as many million souls to the reality of heaven and hell thereby defeating the struggling lord of this world.
+               <br />
+               <br />
+
+With a passion and zeal for the lost, we ensure the reality of heaven is enjoyed here on earth. Our strategy is to reach, win, and grow a soul and that singular soul reaches, wins and grows another through every available godly means.
               </p>
             </div>
           </div>
@@ -84,28 +48,13 @@ const AboutPage = () => (
           <div className="row justify-content-center">
             <div className="col-lg-12 col-sm-12">
               <h1 className="h1 text-center">Our Values</h1>
-              <p className="p">
-                Sed velit lectus, porttitor eu convallis sit amet, semper eget
-                mauris. Integer in pulvinar mauris. Donec facilisis placerat
-                magna sed cursus. Mauris vel tristique arcu. Duis congue orci id
-                libero dictum sollicitudin. Curabitur dapibus arcu leo,
-                condimentum tempus augue condimentum sed. Aliquam sed auctor ex.
-                Nunc quis neque non eros dictum scelerisque ut ac urna. Etiam
-                vel felis molestie, malesuada neque tempus, bibendum mauris.
-                Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.ed velit lectus, porttitor eu convallis sit amet,
-                semper eget mauris. Integer in pulvinar mauris. Donec facilisis
-                placerat magna sed cursus. Mauris vel tristique arcu. Duis
-                congue orci id libero dictum sollicitudin. Curabitur dapibus
-                arcu leo, condimentum tempus augue condimentum sed. Aliquam sed
-                auctor ex. Nunc quis neque non eros dictum scelerisque ut ac
-                urna. Etiam vel felis molestie, malesuada neque tempus, bibendum
-                mauris. Nullam sit amet rhoncus nisl. Quisque non vehicula dui.
-                Vestibulum neque tortor, placerat sit amet condimentum euismod,
-                suscipit lobortis diam. Sed varius elit non erat dignissim
-                vulputate.
+              <p className="p d-flex">
+                <ul className="m-auto" type="circle">
+                  <li> I am a SERVANT to all men, therefore, no  COMPETITION/RIVALRY </li>
+                  <li> I speak to EXPRESS God not to OPPRESS or PLEASE men  </li>
+                  <li> I live by FAITH Not by FATE </li>
+                  <li> No one is too bad for God to blend. </li>
+                </ul>
               </p>
             </div>
           </div>
