@@ -14,7 +14,7 @@ const Footer = () => (
     <div className="container">
       <h1 className="footer__brand text-center">Feeling Pressed</h1>
 
-      <div className="row">
+      <div className="row footer__row">
         <div className="col-lg-8 offset-lg-2 col-sm-12">
           <p className="footer- text-center">
             Quick Links

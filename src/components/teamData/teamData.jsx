@@ -25,7 +25,7 @@ export const Data = [
     id: 3,
     imgUrl:
       "https://res.cloudinary.com/drqltx8ye/image/upload/v1591116718/miracle.jpg",
-    name: "Adeleke Iyanu",
+    name: "Adeleke Iyanu Grace",
     role: "Designer",
     text: "",
     twHandle: "https://twitter.com/mmhimhi_",

@@ -21,7 +21,7 @@ const AboutPage = () => (
             <div className="col-lg-8 col-sm-12">
               <h1 className=" h1 text-center">Our Vision</h1>
               <p className="p">
-               We are a platform centered around Illuminating Hearts, Reshaping earth through the word of God. We believe every lives can be touched and transformed by being exposed to the right content and making it free of charge to any individual irrespective of race, tribe, or religion.
+              We are a platform centered around illuminating hearts and reshaping Earth through the Word of God. We believe every lives can be touched and transformed by being exposed to the right content and making it free of charge to every individuals, irrespective of gender, tribe, or religion.
               </p>
             </div>
           </div>
