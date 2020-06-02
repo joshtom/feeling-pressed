@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "./TeamCard";
-import { Data } from "./teamData";
+import { Data } from "../../components/teamData/teamData";
 import Layout from '../../components/Layout'
 import "./team.styles.scss";
 
