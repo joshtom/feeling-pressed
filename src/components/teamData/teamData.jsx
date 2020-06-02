@@ -6,7 +6,7 @@ export const Data = [
     name: "Pastor P. Irefin",
     role: "Writer",
     text: "",
-    twHandle: "",
+    twHandle: "https://twitter.com/rockabir92",
     fbHandle: "https://web.facebook.com/irefin.peterolubukola/",
     mdHandle: "#"
   },
