@@ -55,8 +55,7 @@ export default class Index extends React.Component {
               <div className="right-col">
                 <h3 className="r-col-h3">Let's get in touch</h3>
                 <p className="grey-text">
-                  Sed velit lectus, porttitor eu convallis sit amet, semper eget
-                  mauris. Integer in pulvinar mauris. Donec facilisis placerat
+                  Our team is fast to respond to messages. Get in touch with us today!
                 </p>
                 <div className="contact-details m-top">
                   <div className="icon">
@@ -116,7 +115,7 @@ export default class Index extends React.Component {
                     Send us a Message
                   </h3>
                   <input
-                    placeholder="First Name"
+                    placeholder="FullName"
                     className="form-input"
                     type={'text'}
                     name={'name'}

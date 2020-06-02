@@ -11,12 +11,12 @@ export default function Main() {
     <div className="main" style={bgImage}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-8 m-auto col-md-12 col-sm-12">
-            <h1 className="text-center text-white"> ILLUMINATING THE WORLD THROUGH THE WORD. </h1>
+          <div className="col-lg-6 m-auto col-md-12 col-sm-12">
+            <h1 className="text-center text-white"> ILLUMINATING HEARTS, RESHAPING EARTH. </h1>
             <p className="col-lg-8 col-md-12 col-sm-12 p-0 text-center m-auto mb-4">
               {" "}
               "And it came to pass, that, as the people pressed upon Him to hear
-              the word of GOD, he stood by the lake of Gennesaret"{" "}
+              the word of GOD, he stood by the lake of Gennesaret" <i>Luke  5:1.</i>{" "}
             </p>
             <div className="col-lg-8 d-flex m-auto mt-4 learn-more-link">
             <Link to="/blog" className="m-auto">
