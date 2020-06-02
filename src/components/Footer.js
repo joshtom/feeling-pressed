@@ -56,19 +56,26 @@ const Footer = () => (
       <div className="row">
         <div className="col-lg-6 offset-lg-3 col-sm-12">
           <section className="social-media">
+            <a href="#" target="_blank">
             <div className="media-handles mt">
               <i className="fa fa-facebook-f icon facebook">  </i>
             </div>
+            </a>
+            <a href="https://twitter.com/feelpressed" target="_blank">
             <div className="media-handles mt">
               <i className="fa fa-twitter icon twitter">  </i>
             </div>
-
+            </a>
+            <a href="https://twitter.com/feelpressed" target="_blank">
             <div className="media-handles mt">
               <i className="fa fa-envelope icon envelope">  </i>
             </div>
+            </a>
+            <a href="#" target="_blank">
             <div className="media-handles">
               <i className="fa fa-instagram icon instagram">  </i>
             </div>
+            </a>
           </section>
         </div>
       </div>

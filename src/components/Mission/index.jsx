@@ -17,7 +17,7 @@ export default function Mission() {
               </header>
               <article>
                 To inspire believers of Jesus, to walk a closer and exciting
-                Journey with christ.
+                Journey with Christ.
               </article>
               <Link to="/about">
                 {" "}
@@ -31,7 +31,7 @@ export default function Mission() {
                 <span className="cube"></span>Mission
               </header>
               <article>
-                To reveal to seekers on how they can begin a Journey with Jesus
+                To reveal to seekers on how they can begin a Journey with Jesus Christ
               </article>{" "}
               <br />
               <Link to="/about">
@@ -46,7 +46,7 @@ export default function Mission() {
                 <span className="cube"></span>Values
               </header>
               <article>
-                To provide resources for Jesus followers so that they can grow.
+                To provide resources for Jesus' followers so that they can grow.
               </article>{" "}
               <br />
               <Link to="/about">
