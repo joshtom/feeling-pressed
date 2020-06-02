@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./team.styles.scss";
 
 const TeamCard = ({ imgUrl, name, role, text, twHandle, fbHandle, mdHandle }) => (
