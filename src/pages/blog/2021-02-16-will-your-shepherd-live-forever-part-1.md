@@ -10,7 +10,7 @@ description: >-
 
   Text: John 10:1-6
 featuredpost: true
-featuredimage: /img/blog-index.jpg
+featuredimage: /img/good_shepherd_3.jpg
 tags:
   - Shepherd
   - Christianity
@@ -19,9 +19,7 @@ tags:
   - feelpressed
   - Sunday worship
 ---
-
-
-![Sherperd](/img/blog-index.jpg)
+![Sherperd](/img/good_shepherd_3.jpg)
 
 A shepherd is he who breeds, nurture, feed, direct and control a sheep or fold of sheep. He is the CPU for the sheep and decides the aftermath of their lives. That is, either to be alive for milking purposes, procreation, sold, or slaughtered for other business reasons. No sheep exist without an owner but there are sheep without Shepherd. Though in contrast, God does not desire that a sheep should exist without a shepherd and that is why Jesus promised in John 14:16 not to leave us without a Comforter, Advocate, Intercessor—Counsellor, Strengthener, Standby (Amplified Version). A shepherd dwells among his sheep to Comfort, Advocate, Intercede, Counsel, Strengthen, and Standby them in all matter just as God Covenanted with Israel to always dwell among them (Exodus 29:45; Zechariah 8:8).
 
